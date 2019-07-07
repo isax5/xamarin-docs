@@ -129,7 +129,7 @@ When the [`SelectionMode`](xref:Xamarin.Forms.SelectableItemsView.SelectionMode)
 ```xaml
 <CollectionView ItemsSource="{Binding Monkeys}"
                 SelectionMode="Single"
-                SelectedItem="{Binding SelectedMonkey}">
+                SelectedItem="{Binding SelectedMonkey, Mode=TwoWay}">
     ...
 </CollectionView>
 ```
